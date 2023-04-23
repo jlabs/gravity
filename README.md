@@ -41,6 +41,8 @@ To ouput global content use `{{ $globalContent['field-name']}}`
 
 To show page content use `{{ $content['field-name'] }}`
 
+Outputting the 'multi-line text' field without the html tags use `{!! $content['field-name'] !!}
+
 # Entities (Models)
 
 Entities allow you to work with a custom Laravel model and adds CRUD options to the admin.
